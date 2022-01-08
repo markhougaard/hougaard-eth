@@ -130,4 +130,10 @@ display: flex;
 .headline img {
   margin-right: 16px;
   border-radius: 4px;
+  width: 64px;
+  height: 64px;
+}
+
+.headline img a {
+  text-decoration: none;
 }
