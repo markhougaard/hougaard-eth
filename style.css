@@ -73,6 +73,7 @@ h1 {
 h2 {
   font-size: 1.5rem;
   line-height: 1.8rem;
+  color: var(--color-purple-base);
 }
 
 table {
@@ -117,4 +118,16 @@ section {
   background: linear-gradient(to bottom right, var(--color-purple-base) 0%, var(--color-magenta-base) 80%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+.headline {
+  flex-direction: row;
+align-content: center;
+align-items: center;
+display: flex;
+}
+
+.headline img {
+  margin-right: 16px;
+  border-radius: 4px;
 }
